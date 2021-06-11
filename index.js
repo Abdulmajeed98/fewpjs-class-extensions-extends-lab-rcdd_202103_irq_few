@@ -40,7 +40,7 @@ class Square extends Polygon {
     const s2 = this.sides[1]
     const s3 = this.sides[2]
     const s4 = this.sides[3]
-    return ((side1 === side2) && (side1 === side3) && (side1 === side4))
+    return ((s1 === s2) && (s1 === s3) && (s1 === s4))
   }
 
   get area() {
